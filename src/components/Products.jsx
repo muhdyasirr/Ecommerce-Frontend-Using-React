@@ -212,7 +212,7 @@ const Products = () => {
                       />
                     ) : (
                       <img
-                        src={`http://localhost:3000/uploads/${p.ProductImage}`}
+                        src={`http://40.192.14.44/uploads/${p.ProductImage}`}
                         alt={p.name}
                         className="w-16 h-16 object-cover rounded"
                       />
@@ -220,7 +220,7 @@ const Products = () => {
                   </div>
                 ) : p.ProductImage ? (
                   <img
-                    src={`http://localhost:3000/uploads/${p.ProductImage}`}
+                    src={`http://40.192.14.44/uploads/${p.ProductImage}`}
                     alt={p.name}
                     className="w-16 h-16 object-cover rounded"
                   />

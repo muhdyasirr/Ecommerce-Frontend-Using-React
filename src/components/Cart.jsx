@@ -151,7 +151,7 @@ const Cart = () => {
                   <td className="flex items-center gap-4 py-2 px-4">
                     {item.productId?.ProductImage ? (
                       <img
-                        src={`http://localhost:3000/uploads/${item.productId.ProductImage}`}
+                        src={`http://40.192.14.44/uploads/${item.productId.ProductImage}`}
                         alt={item.productId?.name || "Product"}
                         className="w-16 h-16 object-cover rounded"
                       />

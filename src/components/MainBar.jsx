@@ -101,7 +101,7 @@ const MainBar = () => {
                 className="relative w-[250px] sm:w-[350px] md:w-[500px] lg:w-[700px] h-[200px] sm:h-[250px] md:h-[300px] rounded-xl overflow-hidden flex-shrink-0 group cursor-pointer"
               >
                 <img
-                  src={`http://localhost:3000/uploads/${cat.CategoryImage}`}
+                  src={`http://40.192.14.44/uploads/${cat.CategoryImage}`}
                   alt={cat.name}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />

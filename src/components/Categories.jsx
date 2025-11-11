@@ -159,7 +159,7 @@ const Categories = () => {
                       />
                     ) : (
                       <img
-                        src={`http://localhost:3000/uploads/${cat.CategoryImage}`}
+                        src={`http://40.192.14.44/uploads/${cat.CategoryImage}`}
                         alt={cat.name}
                         className="w-16 h-16 object-cover rounded"
                       />
@@ -167,7 +167,7 @@ const Categories = () => {
                   </div>
                 ) : cat.CategoryImage ? (
                   <img
-                    src={`http://localhost:3000/uploads/${cat.CategoryImage}`}
+                    src={`http://40.192.14.44/uploads/${cat.CategoryImage}`}
                     alt={cat.name}
                     className="w-16 h-16 object-cover rounded"
                   />

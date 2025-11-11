@@ -66,7 +66,7 @@ const storedUser = localStorage.getItem("user");
               className="bg-white rounded-xl shadow-md overflow-hidden"
             >
               <img
-                src={`http://localhost:3000/uploads/${p.ProductImage}`}
+                src={`http://40.192.14.44/uploads/${p.ProductImage}`}
                 alt={p.name}
                 className="h-60 w-full object-cover"
               />
